@@ -1,0 +1,20 @@
+How do I play a CTF?
+
+CTFs are a standard game-type cybersecurity challenge platform. There are many, many CTFs hosted throughout the year, but very few (such as SANS, or Huntress, or PicoCTF) are well known and fun to play (and usually are not silo'd environments and open for beginners all to way to experts)
+
+There are many, many many many many many..... well a lot of tools and systems and writeups on how to prep and start a CTF. I don't want to rehash all the locations, but I recommend some readups here:
+
+https://infosecwriteups.com/how-to-get-started-in-ctf-complete-begineer-guide-15ab5a6856d
+https://ctftime.org/ctf-wtf/
+https://ctfs.github.io/resources/
+https://trailofbits.github.io/ctf/
+https://github.com/apsdehal/awesome-ctf
+
+
+Pay attention to the tools listed. Also pay attention to the type of tools and what they are used for, and how they work.
+
+Some tools may not work on one type of operating system. The most basic general OS to use is Kali linux, and it is recommend to do so. 
+
+It is recommended to have a separate OS from your default use OS for CTFs. Trust me, do NOT use your base OS you use for daily stuff (such as work and similar) as your CTF OS. You can break tools, break system functions, or worse, get malware on your system.
+
+I recommend a Hypervisor (such as HyperV, VMWare, or VirtualBox) installed on top of your daily driver (OS), and install two OSes within: A base windows OS (for specific tools and functionality from windows), and a Linux OS (kali recommended). If you don't use a curated Linux Distro for Cybersecurity/hacking tools, then you will need to install various tools and support packages manually.
